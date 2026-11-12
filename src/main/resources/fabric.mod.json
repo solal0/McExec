@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mcexec",
+  "version": "${version}",
+  "name": "McExec",
+  "description": "Groovy/Java client side executor for Minecraft 26.3",
+  "authors": ["Not me."],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.mcexec.client.MCExecClient"] },
+  "mixins": [{"config": "mcexec.client.mixins.json", "environment": "client"}],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
