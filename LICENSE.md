@@ -1,17 +1,10 @@
-MIT License
+# McExec License
 
-Copyright (c) 2026 OpenAI
+Copyright © 2026 McExec.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to anyone to use, copy, modify, distribute, and sell McExec, including modified versions, for any purpose, provided that:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- **Credit is given to the original creator** by including a visible link to their GitHub profile: `https://github.com/solal0`.
+- This license and attribution requirement are preserved in all redistributed copies.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+McExec is provided **"AS IS"**, without warranty of any kind. The author is not liable for any damages arising from its use.
