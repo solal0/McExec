@@ -69,8 +69,7 @@ You can call `.close()` on the `AutoCloseable` returned by a callback registrati
 api.onRender2D { canvas ->
     def localPlayer = mc.player
     if (localPlayer == null) return
-    canvas.text(12, 12, String.format('HP %.1f', localPlayer.health),
-                0xFF6AFFAF as int)
+    canvas.text(12, 12, String.format('HP %.1f', localPlayer.health), 0xFF6AFFAF as int)
 }
 ```
 
@@ -146,8 +145,7 @@ Block IDs can be `diamond_ore` or `minecraft:diamond_ore`. Filtering is client-s
 Example:
 
 ```groovy
-api.coloredGlow([players: 'AQUA', hostile: 'RED', animals: 'GREEN',
-                 items: 'YELLOW', other: 'LIGHT_PURPLE'])
+api.coloredGlow([players: 'AQUA', hostile: 'RED', animals: 'GREEN', items: 'YELLOW', other: 'LIGHT_PURPLE'])
 ```
 
 ## Textures and resource packs
@@ -183,8 +181,7 @@ Low-level Java functions are available **directly under `api`**, not under a sep
 ```groovy
 import net.minecraft.world.phys.EntityHitResult
 
-def target = mc.hitResult instanceof EntityHitResult
-        ? mc.hitResult.entity : mc.player
+def target = mc.hitResult instanceof EntityHitResult ? mc.hitResult.entity : mc.player
 if (target != null) {
     log('Fields: ' + api.fields(target.class))
     log('tickCount: ' + api.getField(target, 'tickCount'))
